@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:ital,wght@1,600&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:wght@200&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-left{
+    padding-left: 0px;
+}
+.logo-image{
+    height: 65px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: end;
+}
+.a-element{
+    padding: 10px;
+    margin: 10px;
+    color: plum;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+}
+.home-left {
+    width: 60vw;
+    text-align: left;
+    padding-left: 100px;
+    font-size: x-large;
+}
+.par{
+    font-style: inherit;
+    color: palevioletred;
+}
+.abo{
+    font-style: italic;
+}
+.home-right {
+    width: 40vw;
+    padding-left: 200px;
+}
+.home-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.home-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.skills{
+    padding: 50px;
+    text-align: center;
+}
+.skil{
+    font-style: italic;
+    color: blueviolet;
+}
+.sc-h1{
+    font-family: "Arima", system-ui;
+    color:rgb(213, 62, 21);
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-style: italic;
+}
+.skills-sub-cont{
+    display: flex;
+    flex-direction: row;
+}
+.skills-card{
+    border: 2px solid aqua;
+    margin: 20px;
+    padding: 20px;
+    width: 350px;
+}
+.sc-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+.sc-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+.certificates{
+    padding: 50px;
+    text-align: center;
+}
+.cert{
+    font-style: italic;
+    color: blueviolet;
+}
+.cert-sub-cont{
+    display: flex;
+    flex-direction: row;
+}
+.certi-card{
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+.sc-p{
+    font-family: "Montserrat", sans-serif;
+}
+.pro{
+    padding: 50px;
+    text-align: center;
+}
+.proj{
+    font-style: italic;
+    color: blueviolet;
+}
+.proje-h1{
+    text-align: center;
+}
+.proje-h1{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+.contact{
+    text-align: center;
+}
+.social-icon-img{
+    height: 50px;
+    padding: 20px;
+}
